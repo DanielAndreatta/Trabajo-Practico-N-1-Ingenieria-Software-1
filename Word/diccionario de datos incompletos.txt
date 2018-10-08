@@ -1,0 +1,36 @@
+CLIENTES = {@id_cliente + nombre_cliente + apellido_cliente + direccion_cliente + telefono_cliente + (alias_cliente) + domicilio_cliente + correoElectronico}
+
+PROVEEDORES = {@id_proveedor + nombre_proveedor + cuit_proveedor + domicilio_proveedor + contacto_proveedor}
+
+CATALOGOS = {@id_catalogo + @id_producto + precio_producto}
+
+PRODUCTOS = {@id_producto + @id_rubro + nombre_producto + (descripcion) + stock + precio } 
+
+RUBROS =  {@id_rubro + nombre_rubro} 
+
+VENTAS = {@id_venta + @id_cliente + @id_producto + precio_producto + cant_producto + estado_envios + fecha + tipo_pago + nro_factura}
+
+REMITOS = {@id_compra + @id_proveedor + @id_producto + estado_remito + datos_remito}
+
+PEDIDOS_PROVEEDORES = {@id_pedido + @id_proveedor + estado_pedido}
+
+
+
+Estad_rubro = fecha_inicio + fecha_fin 
+
+List_pro_rub = nombre_producto + nombre_rubro + cant_prod_vend
+
+
+dato_pedido = 1{producto + cantidad + (marca) } + forma_pago
+
+forma_pago = [efectivo | tarjeta_credito]
+
+datos_factura =
+
+datos_catalogo = 
+
+datos_remito =
+
+datos_compra = 
+
+reporte_fin_mes = 
