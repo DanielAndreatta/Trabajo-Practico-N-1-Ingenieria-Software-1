@@ -6,7 +6,7 @@ CATALOGOS = {@id_catalogo + @id_producto + precio_producto}
 
 PRODUCTOS = {@id_producto + @id_rubro + nombre_producto + (descripcion) + stock + precio } 
 
-RUBROS =  {@id_rubro + nombre_rubro} 
+RUBROS =  {@id_rubro + nombre_rubro + descripcion_rubro} 
 
 VENTAS = {@id_venta + @id_cliente + @id_producto + precio_producto + cant_producto + estado_envios + fecha + tipo_pago + nro_factura}
 
