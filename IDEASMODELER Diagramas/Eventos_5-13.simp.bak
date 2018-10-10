@@ -47,13 +47,13 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>2</value>
+        <value>15</value>
       </counter>
     </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.Other.DataFlowDiagram</type>
-        <value>18</value>
+        <value>17</value>
       </counter>
     </diagrams>
     <fields />
@@ -1085,7 +1085,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="p3fe1962a6d434e0b9b454df7e0fd661f_925691736" name="7 - Realizar_Pedido_Proveedor" order-index="12" overview-order-index="11" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,18">
+      <diagram type="data-flow" id="p3fe1962a6d434e0b9b454df7e0fd661f_925691736" name="7 - Realizar_Pedido_Proveedor" order-index="12" overview-order-index="11" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,14">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -1102,7 +1102,7 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="di8e4e63b412f4400ea79ffeb7a96c2a643742" cid="DFF040" type="dfd-data-flow" name="Datos_compra" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 17:09:52" from="difd4513bdd82c40e6978d9aedf557b2fa9388" to="dib787f355bf834782ba6cd44f6442d3273742">
+          <item id="di8e4e63b412f4400ea79ffeb7a96c2a643742" cid="DFF040" type="dfd-data-flow" name="pedido" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 17:09:52" from="difd4513bdd82c40e6978d9aedf557b2fa9388" to="dib787f355bf834782ba6cd44f6442d3273742">
             <style class="default" />
           </item>
           <item id="di69269bf0814c45cc87327c26f84434b09388" cid="DFS001" type="dfd-data-store" name="CATALAGOS" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:05:38">
@@ -1126,7 +1126,7 @@
           <item id="dib787f355bf834782ba6cd44f6442d3273742" cid="DFE005" type="dfd-external" name="Proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 17:02:23">
             <style class="default" />
           </item>
-          <item id="diacb85a8fc6c74656ad1756fbb49bcae49388" cid="DFF004" type="dfd-data-flow" name="Datos_ped" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:08:39" from="di7c98230505094c42b71adbb3e6ad87129388" to="difd4513bdd82c40e6978d9aedf557b2fa9388">
+          <item id="diacb85a8fc6c74656ad1756fbb49bcae49388" cid="DFF004" type="dfd-data-flow" name="datos_pedido" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:08:39" from="di7c98230505094c42b71adbb3e6ad87129388" to="difd4513bdd82c40e6978d9aedf557b2fa9388">
             <style class="default" />
           </item>
           <item id="di744490412df14e16a3a613b4dd6902fd9388" cid="DFF013" type="dfd-data-flow" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:30:55" from="die6666913325d441f80835406d28ff9d79388" to="difd4513bdd82c40e6978d9aedf557b2fa9388">
@@ -1400,25 +1400,6 @@
             <relation from="4ed96c2db26247a385da477bde7298c9" from-iid="8a0759cb58f0480ca23538287eccd548" to="e2c75f9289c148e799a185093e024aef" to-iid="a4dfbf3779314944a15766b17ab00aed" />
           </item>
         </layer>
-      </diagram>
-      <diagram type="data-flow" id="pf68ba7d839e54cb697711141dc05c8f9_820625284" name="DataFlowDiagram18" order-index="15" overview-order-index="38" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
-        <style>
-          <background-color index="1" color="#FFFFFFFF" />
-          <background-color index="2" color="#FFFFFFFF" />
-          <background-type type="solid" />
-        </style>
-        <meta>
-          <authors>
-            <author> </author>
-          </authors>
-          <description />
-          <creation-date>10/09/2018 23:34:07</creation-date>
-          <change-date>10/09/2018 23:34:07</change-date>
-          <revision-count>0</revision-count>
-          <version />
-        </meta>
-        <abstract-items />
-        <layer id="320674773d0f4d06aa77f8148f6c7766" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
     </model>
   </models>
