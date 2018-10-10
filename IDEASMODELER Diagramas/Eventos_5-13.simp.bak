@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>11</value>
+        <value>38</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -265,10 +265,10 @@
           <item id="2b457434e1794d74975650337b5114ea" cid="DFE002" type="dfd-external" name="Administrador" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:54:10">
             <style class="default" />
           </item>
-          <item id="c608812b47dd4d7fa0ab26b1e5a0959f" cid="DFF024" type="dfd-data-flow" name="Est_Env" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:54:30" from="2b457434e1794d74975650337b5114ea" to="a73d180889584b00b934e578b2cbfa94">
+          <item id="c608812b47dd4d7fa0ab26b1e5a0959f" cid="DFF024" type="dfd-data-flow" name="Est_env_cliente" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:54:30" from="2b457434e1794d74975650337b5114ea" to="a73d180889584b00b934e578b2cbfa94">
             <style class="default" />
           </item>
-          <item id="c22894ed690241c49e2a85df1d5a3477" cid="DFF025" type="dfd-data-flow" name="List_env" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:54:36" from="a73d180889584b00b934e578b2cbfa94" to="2b457434e1794d74975650337b5114ea">
+          <item id="c22894ed690241c49e2a85df1d5a3477" cid="DFF025" type="dfd-data-flow" name="List_env_cliente" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:54:36" from="a73d180889584b00b934e578b2cbfa94" to="2b457434e1794d74975650337b5114ea">
             <style class="default" />
           </item>
           <item id="5659c2ab8a1c4012891febfd8f1115ad" cid="DFS012" type="dfd-data-store" name="CLIENTES" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 17:28:42">
@@ -316,7 +316,7 @@
             <relation from="2b457434e1794d74975650337b5114ea" from-iid="c42f9cffb9564e55a72560f2595cfd45" to="a73d180889584b00b934e578b2cbfa94" to-iid="fdfb1dbeacb84e7ebb36f48bb9c37d8f" />
           </item>
           <item id="c22894ed690241c49e2a85df1d5a3477" iid="fdcaee1a7824460fb3c90f1c6df23c82" creation-date="09/27/2018 19:54:36" order-index="6" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="415" y1="206" x2="259" y2="139" start-border-pos="0.875" end-border-pos="0.625" name-position="26,-16" name-width="82">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="415" y1="206" x2="259" y2="139" start-border-pos="0.875" end-border-pos="0.625" name-position="26,-16" name-width="122">
               <points>
                 <point x="415" y="206" />
                 <point x="260" y="206" />
