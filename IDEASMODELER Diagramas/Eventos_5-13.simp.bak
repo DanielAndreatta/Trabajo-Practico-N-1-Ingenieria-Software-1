@@ -45,11 +45,15 @@
         <item-type type-id="shape" type="AbstractShapeItem" />
         <value>2</value>
       </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>2</value>
+      </counter>
     </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.Other.DataFlowDiagram</type>
-        <value>17</value>
+        <value>18</value>
       </counter>
     </diagrams>
     <fields />
@@ -1396,6 +1400,25 @@
             <relation from="4ed96c2db26247a385da477bde7298c9" from-iid="8a0759cb58f0480ca23538287eccd548" to="e2c75f9289c148e799a185093e024aef" to-iid="a4dfbf3779314944a15766b17ab00aed" />
           </item>
         </layer>
+      </diagram>
+      <diagram type="data-flow" id="pf68ba7d839e54cb697711141dc05c8f9_820625284" name="DataFlowDiagram18" order-index="15" overview-order-index="38" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>10/09/2018 23:34:07</creation-date>
+          <change-date>10/09/2018 23:34:07</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="320674773d0f4d06aa77f8148f6c7766" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
     </model>
   </models>
