@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>124</value>
+        <value>11</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -1307,7 +1307,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="p86a053e92c7a41abb1c4d030f16ec200_797601050" name="15 - Reporte Mensual" order-index="14" overview-order-index="37" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+      <diagram type="data-flow" id="p86a053e92c7a41abb1c4d030f16ec200_797601050" name="14 - Reporte Mensual" order-index="14" overview-order-index="37" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -1330,7 +1330,7 @@
           <item id="4ed96c2db26247a385da477bde7298c9" cid="DFS018" type="dfd-data-store" name="VENTAS" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:05:58">
             <style class="default" />
           </item>
-          <item id="e2c75f9289c148e799a185093e024aef" cid="DFP007" type="dfd-process" name="15&#xD;&#xA;Generar Reporte Mensual de Ventas Realizadas" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:06:07">
+          <item id="e2c75f9289c148e799a185093e024aef" cid="DFP007" type="dfd-process" name="14&#xD;&#xA;Generar Reporte Mensual de Ventas Realizadas" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:06:07">
             <style class="default" />
           </item>
           <item id="1d38d236e52d412daf53a7bd6432ee27" cid="DFF059" type="dfd-data-flow" name="datos_reporte" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:06:47" from="e2c75f9289c148e799a185093e024aef" to="6b4b65f691c44fbbab2d39bead32db55">
@@ -1389,7 +1389,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="p5f673e37303844769a80edc7fec730bf_657779235" name="14 - Registrar productos segun rubro" order-index="15" overview-order-index="40" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-2,0">
+      <diagram type="data-flow" id="p5f673e37303844769a80edc7fec730bf_657779235" name="14 -  NO VA Registrar productos segun rubro" order-index="15" overview-order-index="40" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
