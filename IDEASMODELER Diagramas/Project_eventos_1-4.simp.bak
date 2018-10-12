@@ -79,7 +79,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>35</value>
+        <value>10</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -350,7 +350,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="pc24d6270de42427dbdc7e77566c1bf81_774083185" name="NIVEL 2 - ProcesoGESTIONAR CLIENTE" order-index="24" overview-order-index="22" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="35,20" zoom="0.8">
+      <diagram type="data-flow" id="pc24d6270de42427dbdc7e77566c1bf81_774083185" name="NIVEL 2 - ProcesoGESTIONAR CLIENTE" order-index="24" overview-order-index="22" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="278,73" zoom="0.9">
         <style>
           <background-color index="1" color="#FFAAD5FF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -373,7 +373,7 @@
           <item id="732552597a1743dab03c70f731501f83" cid="DFF018" type="dfd-data-flow" name="datos_mod_cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:10" from="81a57617b98a4958b9ae6236da654f80" to="7d804bb6da2446b3bc91049ef8bbb29e">
             <style class="default" />
           </item>
-          <item id="7d804bb6da2446b3bc91049ef8bbb29e" cid="DFP003" type="dfd-process" name="Modificar datos Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:20">
+          <item id="7d804bb6da2446b3bc91049ef8bbb29e" cid="DFP003" type="dfd-process" name="3.2&#xD;&#xA;Modificar datos Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:20">
             <style class="default" />
           </item>
           <item id="390c71376c0c43d4834ef6f38ad6bea2" cid="DFF019" type="dfd-data-flow" name="rta_mod_cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:16:57" from="7d804bb6da2446b3bc91049ef8bbb29e" to="81a57617b98a4958b9ae6236da654f80">
@@ -394,7 +394,7 @@
           <item id="dif155b5e9e0e94b1cab4cef843e67fd589354" cid="DFF016" type="dfd-data-flow" name="datos_cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:03:09" from="81a57617b98a4958b9ae6236da654f80" to="di5d712daf54644efea0a033fa55fead959354">
             <style class="default" />
           </item>
-          <item id="di5d712daf54644efea0a033fa55fead959354" cid="DFP002" type="dfd-process" name="Registrar Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
+          <item id="di5d712daf54644efea0a033fa55fead959354" cid="DFP002" type="dfd-process" name="3.1&#xD;&#xA;Registrar Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
             <style class="default" />
           </item>
         </abstract-items>
@@ -473,7 +473,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="p0038c2ee99e74302a61cc028ae446928_831949352" name="NIVEL 2 - ProcesoGESTIONAR PROVEEDOR" order-index="25" overview-order-index="23" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="338,134">
+      <diagram type="data-flow" id="p0038c2ee99e74302a61cc028ae446928_831949352" name="NIVEL 2 - ProcesoGESTIONAR PROVEEDOR" order-index="25" overview-order-index="23" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="374,134">
         <style>
           <background-color index="1" color="#FFAAD5FF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -496,7 +496,7 @@
           <item id="di3d50b9f810284f8596679484fdc8f83c8004" cid="DFF018" type="dfd-data-flow" name="datos_mod_prov" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:10" from="di0c26aec1841944029fb9fbbfc5627e778004" to="di3431a532104840a0b694712dd075318e8004">
             <style class="default" />
           </item>
-          <item id="di3431a532104840a0b694712dd075318e8004" cid="DFP003" type="dfd-process" name="Modificar datos Proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:20">
+          <item id="di3431a532104840a0b694712dd075318e8004" cid="DFP003" type="dfd-process" name="1.2&#xD;&#xA;Modificar datos Proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:10:20">
             <style class="default" />
           </item>
           <item id="di59c8db2486ff46d3ad89988db250262d8004" cid="DFF019" type="dfd-data-flow" name="rta_mod_prov" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:16:57" from="di3431a532104840a0b694712dd075318e8004" to="di0c26aec1841944029fb9fbbfc5627e778004">
@@ -508,7 +508,7 @@
           <item id="di02daeae3be7844209aadf7c9b08df0298004" cid="DFF020" type="dfd-data-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:17:36" from="di3431a532104840a0b694712dd075318e8004" to="dif9c70f7ca0d047ae8ce79e0b58b032d48004">
             <style class="default" />
           </item>
-          <item id="didba71291c2624b6295d8b3b2f40ee7c78004" cid="DFP002" type="dfd-process" name="Registrar Proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
+          <item id="didba71291c2624b6295d8b3b2f40ee7c78004" cid="DFP002" type="dfd-process" name="1.1&#xD;&#xA;Registrar Proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
             <style class="default" />
           </item>
           <item id="dief1193b6e44a42f5a1485c7c354072c58004" cid="DFF016" type="dfd-data-flow" name="datos_prov" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:03:09" from="di0c26aec1841944029fb9fbbfc5627e778004" to="didba71291c2624b6295d8b3b2f40ee7c78004">
