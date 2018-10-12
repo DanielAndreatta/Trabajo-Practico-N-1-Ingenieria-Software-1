@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>437</value>
+        <value>23</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -2045,7 +2045,7 @@
           <item id="di22dd18c166c844929d092f1c4c7e44723240" cid="DFF054" type="dfd-data-flow" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="10/07/2018 19:32:31" from="di5581337c467e4eb6966f547e19f128eb3240" to="di981c71b351b1410cb9249397b171e70d3240">
             <style class="default" />
           </item>
-          <item id="diac999d943486454da15c246c64ad41614929" cid="DFP003" type="dfd-process" name="5.3&#xD;&#xA;Mostrar productos que se encuentran en punto de reposicion" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:56:54">
+          <item id="diac999d943486454da15c246c64ad41614929" cid="DFP003" type="dfd-process" name="5.3&#xD;&#xA;Generar estadística de productos que se encuentran en punto de reposicion" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:56:54">
             <style class="default" />
           </item>
           <item id="di20312ed6c546461d9eda869f97da0c634929" cid="DFS006" type="dfd-data-store" name="PRODUCTOS" style-class="" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:57:53">
@@ -2069,14 +2069,14 @@
           <item id="bd45fad32f8644e5aee01998968da307" cid="DFF081" type="dfd-data-flow" name="List_pro_rub" style-class="" visibility="package" change-tracking-state="added" creation-date="10/11/2018 14:42:35" from="di62dfe6e1a37b4bebbc4a29e22a419d508817" to="di73b9d64bae984962b3161dd74de3255c9180">
             <style class="default" />
           </item>
-          <item id="di62dfe6e1a37b4bebbc4a29e22a419d508817" cid="DFP007" type="dfd-process" name="5.2&#xD;&#xA;Mostrar cantidad de productos vendidos segun rubro&#xD;&#xA;" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:06:07">
+          <item id="di62dfe6e1a37b4bebbc4a29e22a419d508817" cid="DFP007" type="dfd-process" name="5.2&#xD;&#xA;Generar estadística  de cantidad de productos vendidos segun rubro&#xD;&#xA;" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:06:07">
             <style class="default" />
           </item>
           <item id="di73b9d64bae984962b3161dd74de3255c9180" cid="DFE003" type="dfd-external" name="*Gerente" style-class="Dark Green" visibility="package" change-tracking-state="added" creator="P4dda0aef33314d039fa31f42865a24ec" creation-date="09/27/2018 19:58:15">
             <style class="Dark Green" />
           </item>
           <item id="di99b6f8bc82fa4c528d9beddeaac84c678817" cid="DFS019" type="dfd-data-store" name="CLIENTES" style-class="" visibility="package" change-tracking-state="added" creation-date="10/08/2018 17:07:51">
-            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
