@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>3</value>
+        <value>22</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -405,7 +405,7 @@
             <relation from="07c663d35dd24a74afaceccc8280d257" from-iid="b83b2dcf643c4902a99ce35d894e5895" to="1913407d847e4b89a59addd0dc145d36" to-iid="a1727fee077c4a16b6d4e9d281a4fb93" />
           </item>
           <item id="baa54efb72784a838ff9b8ad78979f8c" iid="e46b848b0e3f42cb8c5e376b1dfb55d5" creation-date="10/03/2018 15:49:40" order-index="5" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="249" y1="200" x2="129" y2="126" start-border-pos="0.876086956521739" end-border-pos="0.625" name-position="30,-12">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="249" y1="200" x2="129" y2="126" start-border-pos="0.876086956521739" end-border-pos="0.625" name-position="30,-10">
               <points>
                 <point x="249" y="200" />
                 <point x="128" y="199" />
