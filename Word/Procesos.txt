@@ -1,0 +1,209 @@
+[Se deben especificar todos los procesos de más bajo nivel y pueden utilizar cualquiera de las herramientas aprendidas, teniendo en cuenta de elegir la que mejor se adapte para especificar el proceso
+Proceso [indicar número de proceso]:[indicar nombre del proceso]
+Proceso [indicar número de proceso]:[indicar nombre del proceso]
+
+Proceso [indicar número de proceso]:[indicar nombre del proceso]
+… 
+…
+A modo de ejemplo especificamos el proceso 1.1.3 del diagrama del nivel 3 del proceso 1.1.
+
+Proceso 3.1: Registrar Cliente
+Entrada: datos_cliente
+Salida: rta_cliente
+COMIENZA
+   Cuando ocurre datos_cliente buscar el cliente en CLIENTES
+   SI no existe
+      Agregar datos_cliente en CLIENTES
+   FIN SI
+   Enviar rta_cliente a la entidad Cliente
+TERMINA
+]
+
+Proceso 3.2: Modificar datos Cliente
+Entrada: datos_mod_cliente
+Salida: rta_mod_cliente
+COMIENZA
+   Cuando ocurre datos_mod_cliente buscar el cliente en CLIENTES
+   SI existe
+      Modificar datos_mod_cliente en CLIENTES
+   FIN SI
+   Enviar rta_mod_cliente a la entidad Cliente
+TERMINA
+]
+
+Proceso 1.2: Modificar datos Proveedor
+Entrada: datos_mod_prov
+Salida: rta_mod_prov
+COMIENZA
+   Cuando ocurre datos_mod_prov buscar el proveedor en PROVEEDORES
+   SI existe
+      Modificar datos_mod_prov en PROVEEDORES
+   FIN SI
+   Enviar rta_mod_prov a la entidad Proveedor
+TERMINA
+]
+
+Proceso 1.2: Registrar Proveedor
+Entrada: datos_prov
+Salida: rta_prov
+COMIENZA
+   Cuando ocurre datos_prov buscar el proveedor en PROVEEDORES
+   SI no existe
+      Agregar datos_prov en PROVEEDORES
+   FIN SI
+   Enviar rta_prov a la entidad Proveedor
+TERMINA
+]
+
+Proceso 2.1: Realizar pedido a proveedor
+Entrada: datos_pedido
+Salida: rta, pedido
+COMIENZA
+   Cuando ocurre datos_pedido buscar el proveedor, catalogo y producto en PROVEEDORES, CATALOGOS y PRODUCTOS
+   SI existe
+      Enviar pedido a la entidad Proveedor y rta a la entidad Administrador
+   SINO
+      Enviar rta a la entidad Administrador
+   FIN SI
+   
+TERMINA
+]
+
+Proceso 2.2: Enviar remito
+Entrada: datos_remito
+Salida: datos_stock
+COMIENZA
+   Cuando ocurre datos_remito buscar el proveedor en PROVEEDORES
+   SI existe
+      Enviar datos_stock a el almacen PRODUCTOS
+      Registrar datos en el almacen REMITOS
+   FIN SI
+TERMINA
+]
+
+Proceso 2.3: Generar listado de estados pendientes proveedor
+Entrada: consulta_estado
+Salida: datos_listado
+COMIENZA
+   Cuando ocurre consulta_estado buscar el proveedor y los pedidos pendientes en PROVEEDORES y PEDIDOS_PROVEEDORES
+   SI existe
+      Enviar datos_listado a la entidad Administrador
+   FIN SI
+TERMINA
+]
+
+
+Proceso 4.1: Realizar venta a cliente
+Entrada: datos_compra
+Salida: datos_factura
+COMIENZA
+   Cuando ocurre datos_compra buscar productos, rubro y cliente en PRODUCTOS, RUBROS y CLIENTES
+   SI existe
+      Registrar venta en el almacen VENTA
+   FIN SI
+   Enviar datos_factura a la entidad Cliente
+TERMINA
+]
+
+/////////NO VA ESTE
+Proceso 4.2: Gestionar envios a cliente
+Entrada: mod_estado
+Salida: list_env_cliente
+COMIENZA
+   Cuando ocurre mod_estado buscar ventas realizadas y clientes en VENTAS y CLIENTES
+   REPETIR 
+   SI estado de venta = pendiente
+      Agregar venta al listado de envios pendientes a cliente
+   FIN SI
+   HASTA completar registro de ventas
+
+   SI listado de envios pendientes a cliente = vacio
+      rta_est_env
+   SINO
+      Enviar List_env_cliente a la entidad Administrador
+   FIN SI
+TERMINA
+]
+/////////
+
+Proceso 4.2.1: Listador de productos pendientes de entrega a un cliente
+Entrada: est_env_cliente
+Salida: list_env_cliente
+COMIENZA
+   Cuando ocurre est_env_cliente buscar ventas realizadas y clientes en VENTAS y CLIENTES
+   REPETIR 
+   SI estado de venta = pendiente
+      Agregar venta al listado de envios pendientes a cliente
+   FIN SI
+   HASTA completar registro de venta
+   Enviar list_env_cliente a la entidad Administrador
+TERMINA
+]
+
+Proceso 4.2.2: Registrar la entrega de un pedido de un cliente
+Entrada: mod_estado
+Salida: rta_est_env
+COMIENZA
+   Cuando ocurre mod_estado buscar clientes en el almacen CLIENTES
+   SI estado de venta = entragada
+      Modificar el estado del envio de venta en el almacen VENTAS
+   FIN SI
+   Enviar rta_est_env a la entidad Administrador
+TERMINA
+]
+
+Proceso 5.1: Generar estadistica de estado de los pedidos realizados a los proveedores
+Entrada: esta_prov
+Salida: list_estad_ped
+COMIENZA
+   Cuando ocurre esta_prov buscar proveedores y pedidos realizados a proveedor en el almacen PROVEEDORES Y PEDIDOS_PROVEEDORES
+   REPETIR
+   SI estado de pedido = pendiente
+      Agregar a estadistica de pedidos pendiente de entrega
+   FIN SI
+   SI estado de pedido = recibido
+      Agregar a estadistica de pedidos recibidos
+   FIN SI
+   HASTA completar el registro de pedidos realizados a los proveedores
+   Enviar list_estad_ped a la entidad Gerente
+TERMINA
+]
+
+
+Proceso 5.2: Generar estadistica de cantidad de productos vendidas segun rubros
+Entrada: list_pro_rub
+Salida: estad_rubros
+COMIENZA
+   Cuando ocurre list_pro_rub buscar ventas, rubros y clientes en el almacen VENTAS, RUBROS Y CLIENTES
+   REPETIR
+      Agregar a estadistica de productos vendidos por rubro
+   HASTA completar el registro de ventas realizadas 
+   Enviar estad_rubros a la entidad Gerente
+TERMINA
+]
+
+Proceso 5.3: Generar estadistica de productos que se encuentran en un punto de reposisicon
+Entrada: estad_stock
+Salida: list_pro_rep
+COMIENZA
+   Cuando ocurre estad_stock buscar productos por rubros en el almacen PRODUCTOS y RUBROS
+   REPETIR
+      Agregar a estadistica de productos en punto de reposicion
+   HASTA completar el registro de productos
+   Enviar list_pro_rep a la entidad Gerente
+TERMINA
+]
+
+Proceso 5.4: Generar reporte mensual de ventas realizadas a un cliente
+Entrada: "Evento Temporal"
+Salida: datos_reporte
+COMIENZA
+   Cuando ocurre el evento buscar productos y ventas realizadas en el almacen PRODUCTOS y VENTAS
+   REPETIR
+      Agregar a reporte de ventas realizadas a cliente
+   HASTA completar el registro de ventas realizadas
+   Enviar datos_reporte a la entidad Gerente
+TERMINA
+]
+
+
