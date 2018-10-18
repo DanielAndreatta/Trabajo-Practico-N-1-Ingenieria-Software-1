@@ -21,7 +21,7 @@ Estad_rubro = fecha_inicio + fecha_fin
 List_pro_rub = nombre_producto + nombre_rubro + cant_prod_vend
 
 
-dato_pedido = 1{producto + cantidad + (marca) } + forma_pago
+dato_pedido = 1{producto + cantidad } + forma_pago
 
 forma_pago = [efectivo | tarjeta_credito]
 
