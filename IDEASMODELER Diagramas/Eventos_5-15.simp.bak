@@ -45,10 +45,6 @@
         <item-type type-id="shape" type="AbstractShapeItem" />
         <value>2</value>
       </counter>
-      <counter>
-        <item-type type-id="" type="AbstractElementGroup" />
-        <value>11</value>
-      </counter>
     </entity-ids>
     <diagrams>
       <counter>
