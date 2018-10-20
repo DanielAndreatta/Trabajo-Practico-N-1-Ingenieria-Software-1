@@ -79,7 +79,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>307</value>
+        <value>21</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -194,7 +194,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="data-flow" id="pb54d731d6ce947f1b7c1c7b46f76ea83_346975126" name="Diagrama de Contexto" order-index="22" overview-order-index="20" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="28,118" zoom="0.9">
+      <diagram type="data-flow" id="pb54d731d6ce947f1b7c1c7b46f76ea83_346975126" name="Diagrama de Contexto" order-index="22" overview-order-index="20" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,118" zoom="0.9">
         <style>
           <background-color index="1" color="#FFAAD5FF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -265,7 +265,7 @@
           <item id="bf0c214869b042b9961590d807cd465c" cid="DFF045" type="dfd-data-flow" name="proveedor" style-class="" visibility="package" change-tracking-state="added" creation-date="10/20/2018 19:20:44" from="52bb41ac7d9e46f6b490fb1f014cab42" to="f217c9bc178d46fa8c7be64373b40a5c">
             <style class="default" />
           </item>
-          <item id="f79271b029074eba9720cf7dee5e3610" cid="DFF043" type="dfd-data-flow" name="rta_cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/20/2018 19:18:01" from="f217c9bc178d46fa8c7be64373b40a5c" to="6e4728d26ec349f2a0dfc185c6e946fd">
+          <item id="f79271b029074eba9720cf7dee5e3610" cid="DFF043" type="dfd-data-flow" name="rta_cli" style-class="" visibility="package" change-tracking-state="added" creation-date="10/20/2018 19:18:01" from="f217c9bc178d46fa8c7be64373b40a5c" to="6e4728d26ec349f2a0dfc185c6e946fd">
             <style class="default" />
           </item>
           <item id="e6093b78e96d4298a44363067f1fdf5a" cid="DFF044" type="dfd-data-flow" name="cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/20/2018 19:19:41" from="6e4728d26ec349f2a0dfc185c6e946fd" to="f217c9bc178d46fa8c7be64373b40a5c">
@@ -311,7 +311,7 @@
             <layout ax="359" ay="502" awidth="120" aheight="70" x="359" y="502" width="120" height="70" />
           </item>
           <item id="3f548c8694514230bf4c3f7580a2bb7b" iid="92343f0e126f4f9c8b799be711da6d14" creation-date="09/26/2018 15:08:57" order-index="12" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="680" y1="455" x2="479" y2="520" start-border-pos="0.710280373692513" end-border-pos="0.314285714285714" name-position="-60,-20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="680" y1="455" x2="479" y2="520" start-border-pos="0.710280373692513" end-border-pos="0.314285714285714" name-position="-40,-20">
               <points>
                 <point x="680" y="455" />
                 <point x="680" y="520" />
@@ -321,7 +321,7 @@
             <relation from="f217c9bc178d46fa8c7be64373b40a5c" from-iid="547759ae198747debfe4d55ccb714892" to="41142ca3190e4bffbe92950cee84612b" to-iid="4a65a765464d48ab8aba68f267cd5d39" />
           </item>
           <item id="19d0dc48894c43bb9cb5c0c9e3e5a7c1" iid="fac157da1ca0481ba6bd835d610d4f01" creation-date="10/07/2018 20:17:43" order-index="13" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="479" y1="549" x2="710" y2="472" start-border-pos="0.417857142857143" end-border-pos="0.675233647227287" name-position="-90,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="479" y1="549" x2="710" y2="472" start-border-pos="0.417857142857143" end-border-pos="0.675233647227287" name-position="-60,20">
               <points>
                 <point x="479" y="549" />
                 <point x="587" y="551" />
@@ -335,7 +335,7 @@
             <layout ax="920" ay="630" awidth="160" aheight="70" x="920" y="630" width="160" height="70" />
           </item>
           <item id="55d6fe499f174e9280b316529447341b" iid="547ccd2ca00c42b9b669a41cfa3550b5" creation-date="10/07/2018 20:20:11" order-index="15" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="960" y1="630" x2="841" y2="440" start-border-pos="0.0625" end-border-pos="0.444444447755814" name-position="-50,-30">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="960" y1="630" x2="841" y2="440" start-border-pos="0.0625" end-border-pos="0.444444447755814" name-position="40,30">
               <points>
                 <point x="960" y="630" />
                 <point x="960" y="440" />
@@ -365,7 +365,7 @@
             <relation from="f217c9bc178d46fa8c7be64373b40a5c" from-iid="547759ae198747debfe4d55ccb714892" to="6e4728d26ec349f2a0dfc185c6e946fd" to-iid="8a9bd061d9144af4afbd1d630b07de1c" />
           </item>
           <item id="88ee271e0ba74f8095b04c335dc43551" iid="71ed41a95cd04d82a36f2746164dce76" creation-date="10/07/2018 20:27:44" order-index="18" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="657" y1="430" x2="419" y2="502" start-border-pos="0.819444447755814" end-border-pos="0.125" name-position="40,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="657" y1="430" x2="419" y2="502" start-border-pos="0.819444447755814" end-border-pos="0.125" name-position="20,-20">
               <points>
                 <point x="657" y="430" />
                 <point x="420" y="430" />
@@ -375,7 +375,7 @@
             <relation from="f217c9bc178d46fa8c7be64373b40a5c" from-iid="547759ae198747debfe4d55ccb714892" to="41142ca3190e4bffbe92950cee84612b" to-iid="4a65a765464d48ab8aba68f267cd5d39" />
           </item>
           <item id="9ba51afdd11144949c4c8e6dd4de4944" iid="f38a119dfc3d46798f7055eb448e5bc9" creation-date="10/20/2018 19:10:14" order-index="19" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="920" y1="680" x2="770" y2="478" start-border-pos="0.821428574621677" end-border-pos="0.605140186846256" name-position="50,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="920" y1="680" x2="770" y2="478" start-border-pos="0.821428574621677" end-border-pos="0.605140186846256" name-position="70,20">
               <points>
                 <point x="920" y="680" />
                 <point x="770" y="680" />
