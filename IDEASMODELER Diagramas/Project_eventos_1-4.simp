@@ -79,7 +79,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>615</value>
+        <value>7</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -212,7 +212,7 @@
         </meta>
         <abstract-items>
           <item id="f217c9bc178d46fa8c7be64373b40a5c" cid="DFP001" type="dfd-process" name="&#xD;&#xA;SIAGAL" style-class="" visibility="package" change-tracking-state="added" creator="Pecc609a117f742829b8dbbe883163ff2" creation-date="09/26/2018 12:32:38">
-            <style style-name="Dark Blue" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;22;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;22;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -1054,7 +1054,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="pbc62f6e6b0b649e098f46d2349a7fb59_341636864" name="1 - Registrar Cliente" order-index="26" overview-order-index="24" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,-18" zoom="0.8">
+      <diagram type="data-flow" id="pbc62f6e6b0b649e098f46d2349a7fb59_341636864" name="1 - Registrar Cliente" order-index="26" overview-order-index="24" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="19,-16">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -1077,7 +1077,7 @@
           <item id="di5ce6b370b8ff4d4b9e36471ccadce2937507" cid="DFS002" type="dfd-data-store" name="CLIENTES" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:17:18">
             <style class="default" />
           </item>
-          <item id="di82767ca32ea24f018707d2d7436fea187507" cid="DFP002" type="dfd-process" name="1&#xD;&#xA;Registrar Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
+          <item id="di82767ca32ea24f018707d2d7436fea187507" cid="DFP002" type="dfd-process" name="3.1&#xD;&#xA;Registrar Cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:02:32">
             <style class="default" />
           </item>
           <item id="dia7d77b3249784aab8d13e8e5891474c27507" cid="DFF016" type="dfd-data-flow" name="datos_cliente" style-class="" visibility="package" change-tracking-state="added" creation-date="10/03/2018 16:03:09" from="dic46f6e21265445e2bd08a948a9e596537507" to="di82767ca32ea24f018707d2d7436fea187507">
